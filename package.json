@@ -1,6 +1,6 @@
 {
   "name": "star-rating",
-  "homepage": "https://asnelgrove.github.io/interactive-rating/",
+  "homepage": "https://asnelgrove.github.io/interactive-rating/public/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
