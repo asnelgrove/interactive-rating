@@ -22,7 +22,7 @@ body {
   width: min(20rem, 80vw);
   margin-block: 25vh;
   margin-inline: auto;
-  padding: 1rem;
+  padding: 1.5rem;
 }
 
 .card > * {
@@ -38,6 +38,10 @@ body {
   font-size: 20px;
   font-weight: 700;
   color: var(--lt-grey);
+}
+
+p {
+  margin-block: 1em;
 }
 
 .copy {
@@ -84,14 +88,14 @@ button.circle:focus {
 
 .circle-cont {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 button.submit {
   border: none;
   border-radius: 50px;
   width: 100%;
-  padding: 8px 12px;
+  padding: 16px 12px;
   background-color: var(--orange);
   color: #fff;
   cursor: pointer;
