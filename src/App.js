@@ -1,5 +1,7 @@
 import './App.css';
 import { React, useState} from 'react';
+import star from './images/icon-star.svg';
+import transaction from './images/illustration-thank-you.svg';
 
 function App() {
   const [rating, setRating] = useState('');
@@ -18,7 +20,7 @@ function App() {
     <div>
       <div className='card' style={{display: submitted ? 'none' : 'block'}}>
         
-          <img className='bubble' src='images/icon-star.svg' alt='orange star icon'></img>
+          <img className='bubble' src={star} alt='orange star icon'></img>
       
         
         <h1 className='title'>How did we do?</h1>
@@ -39,7 +41,7 @@ function App() {
       
       <div className='card centered' style={{display: submitted ? 'block' : 'none'}}>
         <div>
-          <img src='images/illustration-thank-you.svg' alt='a mobile device making a transaction'></img>
+          <img src={transaction} alt='a mobile device making a transaction'></img>
         </div>
         <div className='oval'>
           <p className='orange-text'>You selected {rating} out of 5</p>
